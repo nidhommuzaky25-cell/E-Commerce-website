@@ -1,0 +1,142 @@
+/* Umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #2b583c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 25px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  section.manage-products {
+    margin-top: 30px;
+  }
+  
+  h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #ecf0f1;
+    font-size: 18px;
+  }
+  
+  td img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  tr:hover {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button.edit-btn {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  button.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Tambah Produk Button */
+  .add-product {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .add-product a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-product a:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b583c;
+    color: white;
+    margin-top: 50px;
+  }
+  

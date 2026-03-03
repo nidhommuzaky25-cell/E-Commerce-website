@@ -1,0 +1,163 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f9f3; /* Latar belakang semi hijau muda */
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+header .logo h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Keranjang Belanja */
+.cart {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cart-header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.cart-header h2 {
+    font-size: 2rem;
+    color: #2b5853;
+}
+
+.cart-items {
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 15px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-item-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cart-item-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.cart-item-details .price {
+    font-size: 1.1rem;
+    color: #e60000; /* Warna merah untuk harga */
+    font-weight: bold;
+}
+
+.cart-item .quantity {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item .quantity input {
+    width: 60px;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.remove-item {
+    background-color: #ff4d4d; /* Warna merah untuk tombol hapus */
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.remove-item:hover {
+    background-color: #e60000; /* Warna merah lebih gelap saat hover */
+}
+
+/* Ringkasan Keranjang */
+.cart-summary {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.summary-row p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.checkout {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.2rem;
+    background-color: #4CAF50; /* Hijau untuk tombol checkout */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.checkout:hover {
+    background-color: #45a049; /* Hijau lebih gelap saat hover */
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50; /* Warna hijau untuk footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

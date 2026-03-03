@@ -1,0 +1,97 @@
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tampilan body */
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Download\ Design\ in\ the\ concept\ of\ electronic\ circuit\ boards\ for\ free.jpg)
+    
+
+}
+
+/* Container untuk form login */
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Judul */
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+/* Styling form input dan button */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #3e0048;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2b583c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #2b6d42;
+    transform: scale(1);
+}
+
+/* Tautan Daftar */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color:#333;
+}
+
+.signup-link a {
+    color: #221fd8;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

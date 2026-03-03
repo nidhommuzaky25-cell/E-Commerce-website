@@ -1,0 +1,167 @@
+/* Reset beberapa default style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style untuk keseluruhan body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #2b583c ;
+    color: rgb(239, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo h1 {
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: rgb(254, 253, 253);
+    text-decoration: none;
+    font-size: 20px;
+    align-items:right ;
+}
+
+header .cart a {
+    font-size: 30px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url(Desenho\ abstrato\ em\ verde\ esmeralda\ _\ Vetor\ Grátis.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: rgb(41, 37, 37);
+    text-align: center;
+}
+
+.hero .btn { /*tombol lihat produk*/
+    background-color: #2b583c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hero .btn:hover {
+    background-color: #ff4400;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product { /*background product*/
+    background-color: #bfd4c7;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+.product img { /*ukuran foto produk*/
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+   object-fit: cover;
+}
+
+.product .btn { /*tombol beli sekarang*/
+    background-color: #2b583c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    
+}
+
+.product .btn:hover {
+    background-color: #218838;
+    margin-top: 20px;
+    transform: scale(1.05);
+}
+
+/* Categories Section */
+.categories {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.category {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.category img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.category h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.beranda {
+    float: right;
+    margin-left: 40px;
+}

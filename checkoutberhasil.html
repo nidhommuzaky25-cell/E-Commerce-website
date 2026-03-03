@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terima Kasih - NoirCollection</title>
+  <link rel="stylesheet" href="checkoutberhasil.css">
+</head>
+<body>
+
+  <!-- Pop-up modal -->
+  <div class="popup" id="popup" >
+    <div class="popup-content" style="margin-left: 400px; margin-top: 100px;">
+      <h2>Terima Kasih!</h2>
+      <p>Pembayaran Anda berhasil.</p>
+      <p>Terimakasih sudah berbelanja di <strong>NoirCollection</strong>.</p>
+      <p>Pesanan Anda sedang diproses dan akan segera dikirimkan.</p>
+      <button class="ok-btn"><a href="lamanutama.html" onclick="closePopup()">OK</button>
+    </div>
+  </div>
+
+  <script>
+    // Menampilkan pop-up setelah halaman dimuat
+    window.onload = function() {
+      document.getElementById('popup').style.display = 'block';
+    }
+
+    // Fungsi untuk menutup pop-up
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Keranjang Belanja - E-Commerce</title>
+    <link rel="stylesheet" href="keranjang.css">
+</head>
+<body>
+    
+
+    <section class="cart">
+        <div class="cart-header">
+            <h2>Keranjang Belanja Anda</h2>
+        </div>
+
+        <div class="cart-items">
+            <!-- Item 1 -->
+            <div class="cart-item">
+                <img src="tsrvsp.jpg" alt="Product Image" class="cart-item-image">
+                <div class="cart-item-details">
+                    <h3>Tshirt Ravispa</h3>
+                    <p class="price">Rp.125.000</p>
+                    <div class="quantity">
+                        <label for="quantity1">Jumlah:</label>
+                        <input type="number" id="quantity1" name="quantity1" value="1" min="1">
+                    </div>
+                </div>
+                <button class="remove-item">Hapus</button>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="cart-item">
+                <img src= "4030f16e-4c66-4e1c-bc8d-be9a00ca0a0d-removebg-preview.png" alt="Product Image" class="cart-item-image">
+                <div class="cart-item-details">
+                    <h3>New Balance 530</h3>
+                    <p class="price">Rp.2.0000.000</p>
+                    <div class="quantity">
+                        <label for="quantity2">Jumlah:</label>
+                        <input type="number" id="quantity2" name="quantity2" value="1" min="1">
+                    </div>
+                </div>
+                <button class="remove-item">Hapus</button>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <div class="summary-row">
+                <p>Total Harga:</p>
+                <p class="total-price">Rp.2.125.000</p>
+            </div>
+            <div class="summary-row">
+                <p>Ongkos Kirim:</p>
+                <p class="shipping-cost">Rp. 43.700</p>
+            </div>
+            <div class="summary-row total">
+                <p>Total Pembayaran:</p>
+                <p class="total-amount">Rp. 2.168.700</p>
+            </div>
+           <button class="checkout"> <a href="pembayaran.html">Lanjut ke Pembayaran</a> </button> 
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NoirCollection - Semua Hak Cipta Dilindungi </p>
+    </footer>
+</body>
+</html>
